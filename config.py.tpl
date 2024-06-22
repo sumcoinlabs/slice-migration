@@ -69,15 +69,20 @@ BABEL_DEFAULT_LOCALE = "en"
 BABEL_DEFAULT_FOLDER = "translations"
 # The allowed translation for you app
 LANGUAGES = {
-    "en": {"flag": "gb", "name": "English"},
-    "pt": {"flag": "pt", "name": "Portuguese"},
-    "pt_BR": {"flag": "br", "name": "Pt Brazil"},
-    "es": {"flag": "es", "name": "Spanish"},
-    "de": {"flag": "de", "name": "German"},
-    "zh": {"flag": "cn", "name": "Chinese"},
-    "ru": {"flag": "ru", "name": "Russian"},
-    "pl": {"flag": "pl", "name": "Polish"},
+    'en': {'flag': 'gb', 'name': 'English'},
+    'es': {'flag': 'es', 'name': 'Spanish'},
+    'pt': {'flag': 'pt', 'name': 'Portuguese'},
+    'pt_BR': {'flag': 'br', 'name': 'Pt Brazil'},
+    'de': {'flag': 'de', 'name': 'German'},
+    'zh': {'flag': 'cn', 'name': 'Chinese'},
+    'ru': {'flag': 'ru', 'name': 'Russian'},
+    'pl': {'flag': 'pl', 'name': 'Polish'},
+    'fr': {'flag': 'fr', 'name': 'French'},
+    'it': {'flag': 'it', 'name': 'Italian'},
+    'ja': {'flag': 'jp', 'name': 'Japanese'},
+    'ko': {'flag': 'kr', 'name': 'Korean'},
 }
+
 # ---------------------------------------------------
 # Image and file configuration
 # ---------------------------------------------------
